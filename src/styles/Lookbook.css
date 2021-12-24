@@ -1,6 +1,4 @@
-.lookbook-section {
-    margin-top: 10em;
-}
+
 
 .lookbook-section h3 {
     font-size: 3em;
@@ -15,16 +13,15 @@
 }
 
 .lookbook {
-    width: 350px;
+    /* width: 400px; */
     cursor: pointer;
-    overflow: hidden;
-
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
-.img-container img {
+.lookbook img {
     width: 100%;
     display: block;
 }
+
