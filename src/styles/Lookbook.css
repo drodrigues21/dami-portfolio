@@ -1,0 +1,30 @@
+.lookbook-section {
+    margin-top: 10em;
+}
+
+.lookbook-section h3 {
+    font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.lookbook-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.lookbook {
+    width: 350px;
+    cursor: pointer;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    width: 100%;
+    display: block;
+}

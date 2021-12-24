@@ -1,0 +1,13 @@
+.footer {
+    text-align: center;
+    padding: 4em;
+}
+
+.footer p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.footer p a {
+    font-weight: 400;
+}

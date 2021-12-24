@@ -1,0 +1,36 @@
+/* Theme colors */
+:root {
+    --bg: hsl(60, 7%, 87%);
+    --text: hsl(0, 0%, 0%);
+    --elements: hsl(330, 2%, 16%);
+    --mobile-nav: hsl(0, 0%, 100%);
+}
+  
+.darkmode {
+    --bg: hsl(330, 2%, 16%);
+    --text: hsl(0, 0%, 100%);
+    --elements: hsl(60, 7%, 87%);
+    --mobile-nav: hsl(0, 4%, 61%);
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: var(--text);
+    background-color: var(--bg);
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+}
