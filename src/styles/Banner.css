@@ -11,11 +11,10 @@
 .event-banner {
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .img-container {
-    width: 350px;
     height: 400px;
     cursor: pointer;
     overflow: hidden;
@@ -23,8 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgba(102, 102, 102, 0.849);
-    /* background-color: hsl(0, 0%, 100%); */
+    border: 1px solid rgba(102, 102, 102, 0.85);
 }
 
 .img-container img {
@@ -33,7 +31,6 @@
 }
 
 /* Modal */
-
 .modal-bg {
     position: fixed;
     top: 0;
