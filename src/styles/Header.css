@@ -1,83 +1,31 @@
-.header {
+.header-container.container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: relative;
-    padding-top: 1em;
+    padding: 2em 1.5em;
 }
 
-.logo {
-    font-size: 2em;
+.logo h1 {
+    font-size: 1.5em;
     font-weight: 300;
+    margin: 0;
 }
 
-.theme-sel {
-   position: absolute;
-   display: flex;
-   align-items: center;
-   top: .5em;
-   right: 0;
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .3em .5em 0 0;
 }
 
-.theme-sel ion-icon {
+.theme-toggle span{
+    font-size: .75em;
+    padding-left: .3em;
+}
+
+ ion-icon {
     font-size: .8em;
+    color: var(--text);
 }
 
-.theme-sel span {
-    font-size: .7em;
-    padding-left: 3px;
-}
-
-/* Hamburger Menu */
-.menu-toggle {
-    padding: .5em 0;
-    cursor: pointer;
-    position: absolute;
-    top: 2.95em;
-    right: 0;
-    z-index: 1000;
-}
-
-.hambuger {
-    display: block;
-    position: relative;
-    z-index: 1000;
-}
-
-.hambuger,
-.hambuger::before,
-.hambuger::after {
-    width: 2em;
-    height: 3px;
-    background-color: var(--text);
-    border-radius: 1em;
-    transition: transform 250ms ease-in;
-}
-
-.hambuger::before,
-.hambuger::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-}
-
-.hambuger::before {
-    top: 6px;
-}
-
-.hambuger::after {
-    bottom: 6px;
-}
-
-
-@media screen and (min-width: 800px) {
-    .logo {
-        font-size: 2.25em;
-    }
-
-    .mobile-menu {
-        display: none;
-    }
-    
-}

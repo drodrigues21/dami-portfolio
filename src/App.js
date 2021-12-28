@@ -1,18 +1,22 @@
-import Banner from './components/Banner';
+import AboutMe from './components/AboutMe';
+import EventBanners from './components/EventBanners';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Lookbook from './components/Lookbook';
+import Hero from './components/Hero';
+import Lookbooks from './components/Lookbooks';
 import './styles/App.css';
 
+
 function App() {
+
   return (
     <div className="App">
-      <div className="container">
-        <Header />
-        <Lookbook />
-        <Banner />
-        <Footer />
-      </div>
+      <Header />
+      <Hero />
+      <AboutMe />
+      <Lookbooks />
+      <EventBanners />
+      <Footer />
     </div>
   );
 }
